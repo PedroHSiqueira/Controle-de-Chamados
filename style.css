@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+/* Funções CSS */
+.cor{
+    color: #4ea38e;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+header a{
+    margin-right: 2rem;
+    color: #5B5454;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+nav a:hover{
+    color: #4ea38e;
+    transition: 200ms ease-in-out;
+}
+
+.conta{
+    background-color: #4ea38e;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.conta:hover{
+    color:black;
+    transition: 300ms ease-in-out;
+}
+
+.logo img{
+    height: 5rem;
+    cursor: pointer;
+}
+
+
+
+/* Primeira Section */
+
+.banner{
+    background-image: url(1_capa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: 2px 2px 20px #5B5454;
+}
+
+.tablet img{
+    width: 30vw;
+    height: auto;
+}
+
+.artigoBanner{
+    max-width: 1000px;
+}
+
+
+
+/* utilização */
+
+.funcionalidades{
+    margin-top: 3rem;
+}
+
+
+.titulo{
+    text-align: center;
+    color: #5B5454;
+    font-size: 1rem;
+}
+
+.conteudo{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.conteudo div{
+    background-image: linear-gradient(to bottom right, #69e4c5, #5B5454);
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #5B5454;
+}
+
+.conteudo div svg{
+    width: 2vw;
+    height: auto;
+}
+
+.conteudo div:hover{
+    scale: 1.1;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+/* avaliações */
+
+.avaliacoes{
+    margin-top: 3rem;
+}
+
+.empresa{
+    background-color: #b6b6b6;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #5B5454;
+}
+
+/* Planos */
+
+hr{
+    background-color: black;
+    border: none;
+    height: 1px;
+
+}
+
+.tituloPlano, .preco{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-shadow: 5px 5px 10px #9e9a9a;
+}
+
+.valores{
+    font-size: 0.9rem;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    gap: 4rem;
+    
+    justify-content: center;
+}
+
+.planoOpcoes{
+    background-color: #b6b6b6;
+    border-radius: 20px;
+    border: 5px inset gray;
+    box-shadow: 5px 5px 10px #5B5454;
+    padding: 2rem;
+}
+
+.botao{
+    padding: 1.2rem;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #69e4c5, #918c8c);
+    cursor: pointer;
+}
+
+.botao:hover{
+    scale: 1.05;
+    transition: 200ms ease-in-out;
+}
+
+/* Footer */
+
+footer{
+    background-color: #353335;
+    box-shadow: 5px 5px 10px #5B5454;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 10rem;
+    padding: 2rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    
+}
+
+section div{
+    cursor: pointer;
+}
+
+.termos{
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
