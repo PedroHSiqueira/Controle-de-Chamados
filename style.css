@@ -44,10 +44,11 @@ nav a:hover{
 }
 
 .conta{
-    background-color: #4ea38e;
+    background-image: linear-gradient(to bottom right, #69e4c5, #5B5454);;
     color: #ffffff;
     border-radius: 10px;
     padding: 0.5rem;
+    box-shadow: 1px 1px 5px #5B5454;
 }
 
 .conta:hover{
@@ -87,6 +88,10 @@ nav a:hover{
     max-width: 1000px;
 }
 
+.artigoBanner p{
+    font-size: 1.2rem;
+}
+
 
 
 /* utilização */
@@ -104,17 +109,18 @@ nav a:hover{
 
 .conteudo{
     margin-top: 2rem;
-    padding: 1rem;
+    padding: 2vw 4vw 2vw 4vw;
     border-radius: 20px;
     display: grid;
-    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem 1.2rem;
 }
 
 .conteudo div{
     background-image: linear-gradient(to bottom right, #69e4c5, #5B5454);
+    margin: auto;
     width: 9rem;
     height: 9rem;
     text-align: center;
