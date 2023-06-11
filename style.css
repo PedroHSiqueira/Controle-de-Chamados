@@ -11,7 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
     height: auto;
     background-image: url(2_Fundo_login.png);
-    background-size: 110%;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -191,7 +191,6 @@ hr{
     display: grid;
     grid-template-columns: 15rem 15rem 15rem;
     gap: 4rem;
-    
     justify-content: center;
 }
 
