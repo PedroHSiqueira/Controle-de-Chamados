@@ -51,16 +51,18 @@ nav a:hover{
 }
 
 .conta{
-    background-image: linear-gradient(to bottom right, #69e4c5, #5B5454);;
+    background-image: linear-gradient(to left, #69e4c5, #4ca58f, #69e4c5);
+    background-size: 200%;
     color: #ffffff;
     border-radius: 10px;
     padding: 0.5rem;
     box-shadow: 1px 1px 5px #5B5454;
+    transition: 0.6s;
 }
 
 .conta:hover{
-    color:black;
-    transition: 300ms ease-in-out;
+    background-position: right;
+    color: #ffffff;
 }
 
 .logo img{
@@ -148,7 +150,6 @@ nav a:hover{
 
 .avaliacoes{
     margin-top: 3rem;
-    color: #5B5454;
 }
 
 .empresa{
@@ -157,6 +158,10 @@ nav a:hover{
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #5B5454;
+}
+
+.empresa h3{
+    color: #5B5454;
 }
 
 /* Planos */
@@ -172,7 +177,7 @@ hr{
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem;
-    color: #5B5454;
+    color: #797575;
     text-shadow: 5px 5px 10px #9e9a9a;
 }
 
@@ -188,8 +193,8 @@ hr{
 
 .planoOpcoes{
     background-image: linear-gradient(to bottom right, #e0d9d9, rgb(151, 143, 143));
-    border-radius: 20px;
-    border: 5px inset gray;
+    border-radius: 15px;
+    border: 3px inset gray;
     box-shadow: 7px 7px 10px #5B5454;
     padding: 2rem;
 }
@@ -197,13 +202,18 @@ hr{
 .botao{
     padding: 1.2rem;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom right, #69e4c5, #918c8c);
+    color: #5B5454;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #69e4c5, #4ba58e, #69e4c5);
     cursor: pointer;
+    border: none;
+    background-size: 200%;
+    transition: 0.6s;
 }
 
 .botao:hover{
     scale: 1.05;
-    transition: 200ms ease-in-out;
+    background-position: right;
 }
 
 /* Footer */

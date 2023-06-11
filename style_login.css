@@ -51,15 +51,18 @@ nav a:hover{
 }
 
 .conta{
-  background-color: #4ea38e;
+  background-image: linear-gradient(to left, #69e4c5, #4ca58f, #69e4c5);
+  background-size: 200%;
   color: #ffffff;
   border-radius: 10px;
   padding: 0.5rem;
+  box-shadow: 1px 1px 5px #5B5454;
+  transition: 0.6s;
 }
 
 .conta:hover{
-  color:black;
-  transition: 200ms ease-in-out;
+  background-position: right;
+  color: #ffffff;
 }
 
 .logo img{
