@@ -184,7 +184,7 @@ hr{
     font-size: 1.2rem;
     padding: 1rem;
     color: #686565;
-    text-shadow: 5px 5px 10px #9e9a9a;
+    text-shadow: 3px 3px 10px #9e9a9a;
 }
 
 .valores{
@@ -197,7 +197,7 @@ hr{
 }
 
 .planoOpcoes{
-    background-image: linear-gradient(to bottom right, #e0d9d9, rgb(151, 143, 143));
+    background-image: linear-gradient(to bottom right, #e0d9d9, rgb(211, 205, 205));
     border-radius: 15px;
     border: 3px inset gray;
     box-shadow: 5px 5px 10px #5B5454;
