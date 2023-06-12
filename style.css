@@ -95,6 +95,7 @@ nav a:hover{
 .tablet img{
     width: 30vw;
     height: auto;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 
 .artigoBanner{
@@ -137,6 +138,7 @@ nav a:hover{
     justify-content: center;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #5B5454;
+    transition: 0.5s ease-in-out;
 }
 
 .conteudo div svg{
@@ -232,7 +234,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #ffffff;
+    color: #dad3d3;
     
 }
 
@@ -241,7 +243,7 @@ section div{
 }
 
 .termos{
-    color: #ffffff;
+    color: #dad3d3;
     margin-right: 1rem;
 }
 
