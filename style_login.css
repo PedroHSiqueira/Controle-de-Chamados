@@ -84,7 +84,7 @@ nav a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #b6b6b6;
+  background-color: #d5d0d0;
   padding: 3rem;
   width: auto;
   border-radius: 20px;
@@ -121,6 +121,6 @@ nav a:hover{
 
 .credenciais a:hover{
   scale: 1.02;
-  color:black;
+  color: #000000;
   transition: 200ms ease-in-out;
 }
