@@ -34,7 +34,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
 header a{
