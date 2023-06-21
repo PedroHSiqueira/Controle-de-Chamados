@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-image: url(2_Fundo_login.png);
     background-size: cover;
@@ -15,14 +15,14 @@ body{
 
 ::-webkit-scrollbar {
     display: none;
-    }
+}
 
 /* Funções CSS */
-.cor{
+.cor {
     color: #3f8a77;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     color: #5B5454;
     font-size: 1.25rem;
@@ -31,7 +31,7 @@ body{
 
 /* Header */
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +39,7 @@ header{
     background-color: #ffffff;
 }
 
-header a{
+nav a {
     margin-right: 2rem;
     color: #5B5454;
     text-decoration: none;
@@ -47,12 +47,17 @@ header a{
 
 }
 
-nav a:hover{
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
     color: #4ea38e;
     transition: 200ms ease-in-out;
 }
 
-.conta{
+.conta {
     background-image: linear-gradient(to left, #69e4c5, #4ca58f, #69e4c5);
     background-size: 200%;
     color: #ffffff;
@@ -62,19 +67,44 @@ nav a:hover{
     transition: 0.6s;
 }
 
-.conta:hover{
+.conta:hover {
     background-position: right;
     color: #ffffff;
 }
 
-.logo img{
+.logo img {
     height: 5rem;
     cursor: pointer;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .nav-item {
+        display: none;
+    }
+
+    .conta{
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+
+}
+
 /* Banner */
 
-.banner{
+.banner {
     background-image: url(1_capa.png);
     background-position: center;
     background-size: cover;
@@ -87,29 +117,29 @@ nav a:hover{
     box-shadow: 2px 2px 20px #5B5454;
 }
 
-.tablet img{
+.tablet img {
     width: 30vw;
     height: auto;
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 }
 
-.artigoBanner{
+.artigoBanner {
     max-width: 850px;
 }
 
-.artigoBanner p{
+.artigoBanner p {
     font-size: 1.2rem;
     text-shadow: 3px 3px 10px #5b5454;
 }
 
 /* utilização */
 
-.funcionalidades{
+.funcionalidades {
     margin-top: 3rem;
 }
 
 
-.conteudo{
+.conteudo {
     margin-top: 2rem;
     padding: 2vw 4vw 2vw 4vw;
     border-radius: 20px;
@@ -120,7 +150,7 @@ nav a:hover{
     gap: 2rem 1.2rem;
 }
 
-.conteudo div{
+.conteudo div {
     background-image: linear-gradient(to bottom right, #69e4c5, #5B5454);
     margin: auto;
     width: 9rem;
@@ -135,24 +165,36 @@ nav a:hover{
     transition: 0.5s ease-in-out;
 }
 
-.conteudo div svg{
-    width: 2vw;
+.conteudo div svg {
+    width: 2.5rem;
     height: auto;
 }
 
-.conteudo div:hover{
+.conteudo div:hover {
     scale: 1.1;
     transition: 200ms ease-in-out;
     cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .conteudo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width:660px) {
+    .conteudo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* avaliações */
 
-.avaliacoes{
+.avaliacoes {
     margin-top: 3rem;
 }
 
-.empresa{
+.empresa {
     background-image: linear-gradient(to bottom right, #e0d9d9, rgb(151, 143, 143));
     margin: 2.5rem;
     padding: 2.3rem;
@@ -160,20 +202,21 @@ nav a:hover{
     box-shadow: 5px 5px 10px #5B5454;
 }
 
-.empresa h3{
+.empresa h3 {
     color: #5B5454;
 }
 
 /* Planos */
 
-hr{
+hr {
     background-color: #5B5454;
     border: none;
     height: 1px;
 }
 
 
-.tituloPlano, .preco{
+.tituloPlano,
+.preco {
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem;
@@ -181,7 +224,7 @@ hr{
     text-shadow: 3px 3px 10px #9e9a9a;
 }
 
-.valores{
+.valores {
     font-size: 0.9rem;
     margin: 2rem;
     display: grid;
@@ -190,7 +233,7 @@ hr{
     justify-content: center;
 }
 
-.planoOpcoes{
+.planoOpcoes {
     background-image: linear-gradient(to bottom right, #e0d9d9, rgb(211, 205, 205));
     border-radius: 15px;
     border: 3px inset gray;
@@ -199,7 +242,7 @@ hr{
 }
 
 
-.botao{
+.botao {
     padding: 1.2rem;
     border-radius: 20px;
     color: #2a2929;
@@ -212,32 +255,45 @@ hr{
     box-shadow: 2px 2px 9px #5B5454;
 }
 
-.botao:hover{
+.botao:hover {
     scale: 1.05;
     background-position: right;
 }
 
+@media (max-width: 870px) {
+    .valores {
+        grid-template-columns: 15rem;
+    }
+}
+
 /* Footer */
 
-footer{
+footer {
     background-color: #504a4a;
     box-shadow: 5px 5px 10px #5B5454;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    height: 10rem;
+    height: auto;
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #dad3d3;
-    
+
 }
 
-section div{
+section div {
     cursor: pointer;
 }
 
-.termos{
+.termos {
     color: #dad3d3;
     margin-right: 1rem;
+}
+
+@media (max-width: 830px) {
+    footer {
+        flex-direction: column;
+        align-items: normal;
+    }
 }
