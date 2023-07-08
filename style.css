@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(2_Fundo_login.png);
+    background-image: url(img/2_Fundo_login.png);
     background-size: cover;
 }
 
@@ -105,7 +105,7 @@ nav a:hover {
 /* Banner */
 
 .banner {
-    background-image: url(1_capa.png);
+    background-image: url(img/1_capa.png);
     background-position: center;
     background-size: cover;
     height: 50vh;
