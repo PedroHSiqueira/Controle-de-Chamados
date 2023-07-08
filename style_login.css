@@ -10,7 +10,7 @@ html{
 body{
   font-family: 'Poppins', sans-serif;
   height: auto;
-  background-image: url(img/2_Fundo_login.png);
+  background-image: url(2_Fundo_login.png);
 }
 
 ::-webkit-scrollbar {
